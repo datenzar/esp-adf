@@ -21,7 +21,8 @@ config ESP32_KORVO_DU1906_BOARD
     bool "ESP32_KORVO_DU1906"
 config ESP32_S2_KALUGA_1_V1_2_BOARD
     bool "ESP32-S2-Kaluga-1 v1.2"
-
+config ESP32_TTGO_TAUDIO_V1_6_BOARD
+    bool "ESP32-TTGO_TAudio v1.6"        
 endchoice
 
 choice ESP32_KORVO_DU1906_DAC

@@ -5,6 +5,7 @@ set(COMPONENT_ADD_INCLUDEDIRS ./include
                             ./driver/es7243
                             ./driver/es7148
                             ./driver/tas5805m
+                            ./driver/wm8978
                             ./driver/zl38063
                             ./driver/zl38063/api_lib
                             ./driver/zl38063/example_apps
@@ -23,6 +24,7 @@ set(COMPONENT_SRCS ./audio_hal.c
                     ./driver/es7243/es7243.c
                     ./driver/es7148/es7148.c
                     ./driver/tas5805m/tas5805m.c
+                    ./driver/wm8978/wm8978.c
                     ./driver/zl38063/zl38063.c
                     ./driver/zl38063/api_lib/vprocTwolf_access.c
                     ./driver/zl38063/api_lib/vproc_common.c

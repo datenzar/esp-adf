@@ -41,3 +41,8 @@ ifdef CONFIG_ESP32_S2_KALUGA_1_V1_2_BOARD
 COMPONENT_ADD_INCLUDEDIRS += ./esp32_s2_kaluga_1_v1_2
 COMPONENT_SRCDIRS += ./esp32_s2_kaluga_1_v1_2
 endif
+
+ifdef CONFIG_ESP32_TTGO_TAUDIO_V1_6_BOARD
+COMPONENT_ADD_INCLUDEDIRS += ./esp32_ttgo_taudio_v1_6
+COMPONENT_SRCDIRS += ./esp32_ttgo_taudio_v1_6
+endif
